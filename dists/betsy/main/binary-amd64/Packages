@@ -1,0 +1,20 @@
+Package: gtk3-engines-unico
+Version: 1.0.3+bzr152-1~bpo8+1
+Architecture: amd64
+Maintainer: James Lu <glolol1@hotmail.com>
+Installed-Size: 70
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.5.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Multi-Arch: same
+Homepage: https://launchpad.net/unico
+Priority: optional
+Section: x11
+Filename: pool/main/g/gtk3-engines-unico/gtk3-engines-unico_1.0.3+bzr152-1~bpo8+1_amd64.deb
+Size: 9838
+SHA256: a59fd8d5c359092281992153d0909ce160d5b72b4b8dcf912db35e78fce8b78a
+SHA1: a93960da49ac587d536088305ba2d589caca4261
+MD5sum: 5e00bb1beb7249b616741e5355f01179
+Description: Unico Gtk+ 3 theme engine
+ Unico is a Gtk+ engine that aims to be the more complete yet powerful theming
+ engine for Gtk+ 3.0 and newer. It’s the first Gtk+ engine written with Gtk+
+ style context APIs in mind, using CSS as first class citizen.
+
