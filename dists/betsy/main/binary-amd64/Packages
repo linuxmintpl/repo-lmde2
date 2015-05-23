@@ -18,3 +18,47 @@ Description: Unico Gtk+ 3 theme engine
  engine for Gtk+ 3.0 and newer. It’s the first Gtk+ engine written with Gtk+
  style context APIs in mind, using CSS as first class citizen.
 
+Package: lxdm
+Version: 0.5.1-1~bpo8+1
+Architecture: amd64
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 843
+Depends: debconf (>= 1.2.9) | debconf-2.0, libc6 (>= 2.14), libcairo2 (>= 1.2.4), libck-connector0 (>= 0.2.1), libdbus-1-3 (>= 1.0.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, libxcb1, gtk2-engines-pixbuf, iso-codes, libpam-modules, libpam-runtime, librsvg2-common, lsb-base, x11-utils | xmessage
+Recommends: lxde-common, lxsession, desktop-base
+Provides: x-display-manager
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/main/l/lxdm/lxdm_0.5.1-1~bpo8+1_amd64.deb
+Size: 116546
+SHA256: 27286b133ee4110a302876cede67fc0c003200234212c738be6a015a7f2595e4
+SHA1: 429f8ba86e79d3028656c9633c0f5e93b3bdf4de
+MD5sum: 72d0761af0200907e75621c555ea2839
+Description: LXDE display manager
+ LXDM is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It's a lightweight login manager which can be used as a replacement for
+ GDM or KDM.
+
+Package: lxdm-dbg
+Source: lxdm
+Version: 0.5.1-1~bpo8+1
+Architecture: amd64
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 324
+Depends: lxdm (= 0.5.1-1~bpo8+1)
+Homepage: http://www.lxde.org/
+Priority: extra
+Section: debug
+Filename: pool/main/l/lxdm/lxdm-dbg_0.5.1-1~bpo8+1_amd64.deb
+Size: 207272
+SHA256: 9fef57e126a8d6d7856643f3d048a2d6fe36ff7cd3d73a416a393d7eb9de907e
+SHA1: 7c58cff9e0f045e8eb6bf71d9e4713df63612291
+MD5sum: 69e9771ebc18eb632f9bca4fdfe5d387
+Description: LXDE display manager (debug symbols)
+ LXDM is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains debugging symbols for the LXDM.
+
