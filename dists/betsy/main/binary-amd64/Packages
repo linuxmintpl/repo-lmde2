@@ -62,3 +62,62 @@ Description: LXDE display manager (debug symbols)
  .
  This package contains debugging symbols for the LXDM.
 
+Package: mint-info-debian-cinnamon
+Source: mint-info-debian
+Version: 2015.05.23
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 34
+Depends: mint-user-guide-cinnamon
+Conflicts: mint-info-debian
+Replaces: mint-info-debian
+Provides: mint-info
+Priority: optional
+Section: admin
+Filename: pool/main/m/mint-info-debian/mint-info-debian-cinnamon_2015.05.23_amd64.deb
+Size: 2188
+SHA256: 356ab79f1407b7d2914a653dd63130d46827e280ea4007f4b97e68f1f7e9f7ba
+SHA1: 502a945ad4986e307beb5f10f20cb48e0bf15f38
+MD5sum: 4abf189f29fbf7c9da3b937d5071cee1
+Description: Necessary information about the Linux Mint release and edition.
+ Base package. This package is needed by the Mint tools and the system to uniquely identify the edition and release of Linux Mint you're using and to get information related to it.
+
+Package: mint-info-debian-lxde
+Source: mint-info-debian
+Version: 2015.05.23
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 34
+Conflicts: mint-info-debian
+Replaces: mint-info-debian
+Provides: mint-info
+Priority: optional
+Section: admin
+Filename: pool/main/m/mint-info-debian/mint-info-debian-lxde_2015.05.23_amd64.deb
+Size: 2158
+SHA256: 8b3a65c08c93f310e74ed0027b43669deda05fbdffd0a4d9b60a5a29f33392a9
+SHA1: 1bb1711d7231e55c2fe4d933a0e0af6c7b09e978
+MD5sum: c3cf9d11a731c0ec292b6b0f0e0fbfbf
+Description: Necessary information about the Linux Mint release and edition.
+ Base package. This package is needed by the Mint tools and the system to uniquely identify the edition and release of Linux Mint you're using and to get information related to it.
+
+Package: mint-info-debian-mate
+Source: mint-info-debian
+Version: 2015.05.23
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 34
+Depends: mint-user-guide-mate
+Conflicts: mint-info-debian
+Replaces: mint-info-debian
+Provides: mint-info
+Priority: optional
+Section: admin
+Filename: pool/main/m/mint-info-debian/mint-info-debian-mate_2015.05.23_amd64.deb
+Size: 2182
+SHA256: f871a0205f8b9fede2be596747aabb3b2cc3956b462d7f633dde480b03a5d57d
+SHA1: 337be347ddb830ba70638459fe8e072fa94c7865
+MD5sum: 4b2c8f5377313fc38e8c2bf84f86ca91
+Description: Necessary information about the Linux Mint release and edition.
+ Base package. This package is needed by the Mint tools and the system to uniquely identify the edition and release of Linux Mint you're using and to get information related to it.
+
