@@ -1,0 +1,9 @@
+Origin: linuxmint
+Label: linuxmint
+Suite: betsy
+Codename: betsy
+Version: betsy
+Architectures: amd64 i386 source
+Components: main non-free contrib
+UDebComponents: main contrib non-free
+Description: Linux Mint Poland repository for LMDE 2
